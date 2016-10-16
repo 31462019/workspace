@@ -1,0 +1,15 @@
+rooms: 30 a: 4 b: 5 pop: 60 instance: 1 example: 1
+rooms: 30 a: 4 b: 5 pop: 60 instance: 1 example: 2
+rooms: 30 a: 4 b: 5 pop: 60 instance: 1 example: 3
+rooms: 30 a: 4 b: 5 pop: 60 instance: 1 example: 4
+rooms: 30 a: 4 b: 5 pop: 60 instance: 1 example: 5
+rooms: 30 a: 4 b: 5 pop: 60 instance: 2 example: 1
+rooms: 30 a: 4 b: 5 pop: 60 instance: 2 example: 2
+rooms: 30 a: 4 b: 5 pop: 60 instance: 2 example: 3
+rooms: 30 a: 4 b: 5 pop: 60 instance: 2 example: 4
+rooms: 30 a: 4 b: 5 pop: 60 instance: 2 example: 5
+rooms: 30 a: 5 b: 5 pop: 60 instance: 3 example: 1
+rooms: 30 a: 5 b: 5 pop: 60 instance: 3 example: 2
+rooms: 30 a: 5 b: 5 pop: 60 instance: 3 example: 3
+rooms: 30 a: 5 b: 5 pop: 60 instance: 3 example: 4
+rooms: 30 a: 5 b: 5 pop: 60 instance: 3 example: 5

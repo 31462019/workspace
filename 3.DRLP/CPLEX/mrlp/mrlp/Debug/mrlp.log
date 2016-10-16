@@ -1,0 +1,13 @@
+﻿Build started 2016/4/15 16:09:31.
+     1>Project "F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\mrlp\mrlp.vcxproj" on node 2 (ClCompile target(s)).
+     1>PrepareForBuild:
+         Creating directory "F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Debug\".
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mrlp.cpp
+         mrlp.cpp
+     1>f:\git_real\moead_cpp\all\cplex\mrlp\mrlp\mrlp.cpp(33): fatal error C1083: 无法打开包括文件:“ilcplex/ilocplex.h”: No such file or directory
+     1>Done Building Project "F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\mrlp\mrlp.vcxproj" (ClCompile target(s)) -- FAILED.
+
+生成失败。
+
+Time Elapsed 00:00:00.67

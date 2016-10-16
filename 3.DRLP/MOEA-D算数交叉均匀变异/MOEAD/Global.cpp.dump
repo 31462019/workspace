@@ -1,0 +1,33 @@
+#include "Global.h"
+
+int  seed = 3133;
+long rnd_uni_init = - long(seed);
+
+int NumOfF;		//目标个数
+int NumOfNeibor;//邻居数					//
+int NumOfSub;//子问题个数
+vector<int> ReferencePoint;//参考点 ;		//
+
+int NumOfRoom;//房间数				//
+int  NumOfA;//左中心岛				//
+int  NumOfB;//右中心岛				//
+double WidthOfCorridor;//走廊宽		//
+int  WidthOfH;//房间高度h			//
+vector<double> WidthOfRoom;//房间宽度	//
+vector<double> LimitOfRow;//行宽限制
+vector<double> LimitOfSecRow;//二行宽度限制
+
+vector< vector<int> > Flow;//房间流量
+
+//int  NumOfRoom;
+//int  NumOfF;
+
+
+
+vector< vector<int> > knapsack_profit;
+vector< vector<int> > knapsack_weight;
+vector<int>           knapsack_capacity;
+
+char strFitnessType[1024];
+
+int run_id;

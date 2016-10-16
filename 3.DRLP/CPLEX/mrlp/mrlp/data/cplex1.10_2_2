@@ -1,0 +1,42 @@
+
+	
+	const IloInt nbR=3,nbN=10;	//行数 房间数
+	const IloInt na=2,nb=2;		//2行左右房间数
+	IloNumArray nd,nw;			//三行走廊限制 房间宽度
+	IloArray<IloNumArray> nf ;	//流量
+	const IloNum dl=2,dm=3,dr=2;		//二行左中右宽度限制
+	const IloNum nbc=2.5,nbM=1000;	//
+	const IloNum nbh=4.0;
+	
+----	
+	
+	nd = IloNumArray(env, nbR,45.5,45.5,45.5);
+	nw = IloNumArray(env, nbN,12.7,7.4,14.0,4.5,4.2,4.3,5.4,13.1,14.3,4.3);
+	
+----	
+	
+	nf[0] = IloNumArray(env,nbN,1716,665,0,541,6925,0,0,0,0,0);
+	nf[1] = IloNumArray(env,nbN,0,18627,0,0,1555,0,15485,0,0,1007);
+	nf[2] = IloNumArray(env,nbN,0,2705,1429,1746,0,0,0,0,0,70);
+	nf[3] = IloNumArray(env,nbN,947,0,7945,0,0,725,0,0,1460,0);
+	nf[4] = IloNumArray(env,nbN,0,648,0,0,0,0,1410,0,0,0);
+	nf[5] = IloNumArray(env,nbN,1429,0,10013,0,5870,0,0,8280,0,0);
+	nf[6] = IloNumArray(env,nbN,16409,1789,1008,0,727,3044,0,1999,0,0);
+	nf[7] = IloNumArray(env,nbN,0,0,1906,685,0,0,18320,0,0,0);
+	nf[8] = IloNumArray(env,nbN,0,79,2871,0,1032,1839,0,17277,0,0);
+	nf[9] = IloNumArray(env,nbN,0,0,882,0,0,11521,0,0,0,15211);
+	
+----	
+	
+	nf[0] = IloNumArray(env,nbN,2,5,5,1,0,0,5,4,0,1);
+	nf[1] = IloNumArray(env,nbN,4,4,0,3,4,0,4,2,2,3);
+	nf[2] = IloNumArray(env,nbN,1,3,2,0,3,1,3,3,3,5);
+	nf[3] = IloNumArray(env,nbN,3,4,1,4,4,3,3,2,5,1);
+	nf[4] = IloNumArray(env,nbN,4,4,1,5,4,1,4,3,1,5);
+	nf[5] = IloNumArray(env,nbN,1,3,3,4,0,4,5,1,5,1);
+	nf[6] = IloNumArray(env,nbN,2,1,5,5,3,1,2,0,2,3);
+	nf[7] = IloNumArray(env,nbN,3,4,4,2,2,3,1,1,4,4);
+	nf[8] = IloNumArray(env,nbN,2,1,3,1,1,3,0,5,2,1);
+	nf[9] = IloNumArray(env,nbN,4,1,3,4,3,4,1,0,2,2);
+
+

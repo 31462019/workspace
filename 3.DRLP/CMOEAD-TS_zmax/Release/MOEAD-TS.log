@@ -1,0 +1,17 @@
+﻿Build started 2016/4/15 16:18:17.
+     1>Project "F:\git_real\MOEAD_cpp\ALL\CMOEAD-TS_zmax\MOEAD-TS.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\MOEAD-TS.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         MOEAD-TS.vcxproj -> F:\git_real\MOEAD_cpp\ALL\CMOEAD-TS_zmax\Release\MOEAD-TS.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\MOEAD-TS.unsuccessfulbuild".
+         Touching "Release\MOEAD-TS.lastbuildstate".
+     1>Done Building Project "F:\git_real\MOEAD_cpp\ALL\CMOEAD-TS_zmax\MOEAD-TS.vcxproj" (build target(s)).
+
+生成成功。
+
+Time Elapsed 00:00:00.14

@@ -1,0 +1,67 @@
+﻿Build started 2016/6/22 18:43:24.
+     1>Project "F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\mrlp\mrlp.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\mrlp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\Program Files (x86)\IBM\ILOG\CPLEX_Studio124\cplex\include" /I"E:\Program Files (x86)\IBM\ILOG\CPLEX_Studio124\concert\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D IL_STD /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt mrlp.cpp
+         mrlp.cpp
+     1>mrlp.cpp(235): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>mrlp.cpp(239): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+     1>mrlp.cpp(221): warning C4101: “end”: 未引用的局部变量
+     1>mrlp.cpp(433): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>mrlp.cpp(497): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>mrlp.cpp(499): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\mrlp.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\Program Files (x86)\IBM\ILOG\CPLEX_Studio124\cplex\lib\x86_windows_vs2010\stat_mta\cplex124.lib" "E:\Program Files (x86)\IBM\ILOG\CPLEX_Studio124\cplex\lib\x86_windows_vs2010\stat_mta\ilocplex.lib" "E:\Program Files (x86)\IBM\ILOG\CPLEX_Studio124\concert\lib\x86_windows_vs2010\stat_mta\concert.lib" /MANIFEST /ManifestFile:"Release\mrlp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\mrlp.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\mrlp.lib" /MACHINE:X86 Release\mrlp.obj
+         正在生成代码
+         已完成代码的生成
+     1>concert.lib(iloalg.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloalg.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloallocator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloallocator.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloanyexpr.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloanyexpr.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloconstraint.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloconstraint.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloenv.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloenv.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloexpression.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloexpression.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloextractable.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloextractable.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilohash.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilohash.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloiterator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloiterator.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilomap.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilomap.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilorandom.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilorandom.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosatomi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosatomi.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosbasic.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosbasic.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosdisplayi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosdisplayi.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloserror.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloserror.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloset.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloset.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosmodel.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosmodel.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosolution.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosolution.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilossequencei.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilossequencei.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilossol.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilossol.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosstructi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosstructi.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilostimei.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilostimei.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilothread.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilothread.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilotypes.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilotypes.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollection.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollection.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollectioniterator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollectioniterator.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollectionoperator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollectionoperator.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollectionstruct.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollectionstruct.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosimplecollection.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosimplecollection.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilointervalsi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilointervalsi.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilonumfunci.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilonumfunci.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloparami.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloparami.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloskiplist.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloskiplist.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(evalexpand.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(evalexpand.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(evalkernel.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(evalkernel.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(evaluator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(evaluator.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(strtod.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(strtod.obj)”或在“F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         mrlp.vcxproj -> F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\mrlp.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\Release\mrlp.exe;#1" /manifest Release\mrlp.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\mrlp.unsuccessfulbuild".
+         Touching "Release\mrlp.lastbuildstate".
+     1>Done Building Project "F:\git_real\MOEAD_cpp\ALL\CPLEX\mrlp\mrlp\mrlp.vcxproj" (build target(s)).
+
+生成成功。
+
+Time Elapsed 00:00:06.06

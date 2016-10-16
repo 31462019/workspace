@@ -1,0 +1,94 @@
+﻿Build started 2016/5/19 10:21:36.
+     1>Project "F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\MOEAD-TS.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\MOEAD.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"E:\Program Files (x86)\IBM\ILOG\CPLEX_Studio124\cplex\include" /I"E:\Program Files (x86)\IBM\ILOG\CPLEX_Studio124\concert\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /D IL_STD /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt MOEAD.cpp
+         MOEAD.cpp
+     1>MOEAD.cpp : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\git_real\moead_cpp\all\moea-d算数交叉均匀变异\moead\LayoutProblem.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>MOEAD.cpp(19): warning C4305: “参数”: 从“double”到“const float”截断
+     1>MOEAD.cpp(20): warning C4305: “参数”: 从“double”到“const float”截断
+     1>MOEAD.cpp(44): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>MOEAD.cpp(69): warning C4018: “<”: 有符号/无符号不匹配
+     1>MOEAD.cpp(79): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>MOEAD.cpp(111): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>MOEAD.cpp(115): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+     1>MOEAD.cpp(219): warning C4018: “<”: 有符号/无符号不匹配
+     1>MOEAD.cpp(232): warning C4018: “<”: 有符号/无符号不匹配
+     1>MOEAD.cpp(241): warning C4018: “<”: 有符号/无符号不匹配
+     1>MOEAD.cpp(267): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\stdio.h(371) : 参见“sprintf”的声明
+     1>MOEAD.cpp(273): warning C4018: “<”: 有符号/无符号不匹配
+     1>MOEAD.cpp(279): warning C4018: “<”: 有符号/无符号不匹配
+     1>MOEAD.cpp(284): warning C4018: “<”: 有符号/无符号不匹配
+     1>MOEAD.cpp(304): warning C4018: “<”: 有符号/无符号不匹配
+     1>MOEAD.cpp(499): warning C4552: “<”: 运算符不起任何作用；应输入带副作用的运算符
+     1>MOEAD.cpp(500): warning C4552: “<”: 运算符不起任何作用；应输入带副作用的运算符
+     1>MOEAD.cpp(516): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>MOEAD.cpp(517): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>MOEAD.cpp(563): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>MOEAD.cpp(564): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>MOEAD.cpp(628): warning C4018: “<”: 有符号/无符号不匹配
+     1>MOEAD.cpp(635): warning C4018: “<”: 有符号/无符号不匹配
+       Link:
+         E:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\MOEAD.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "E:\Program Files (x86)\IBM\ILOG\CPLEX_Studio124\cplex\lib\x86_windows_vs2010\stat_mta\cplex124.lib" "E:\Program Files (x86)\IBM\ILOG\CPLEX_Studio124\cplex\lib\x86_windows_vs2010\stat_mta\ilocplex.lib" "E:\Program Files (x86)\IBM\ILOG\CPLEX_Studio124\concert\lib\x86_windows_vs2010\stat_mta\concert.lib" /MANIFEST /ManifestFile:"Release\MOEAD.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\MOEAD.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\MOEAD.lib" /MACHINE:X86 Release\ContinueValue.obj
+         Release\Global.obj
+         Release\Individual.obj
+         Release\LayoutProblem.obj
+         Release\MOEAD.obj
+         Release\moead_ts_main.obj
+         Release\RandomNumber.obj
+         Release\SubProblem.obj
+         Release\WeightVector.obj
+         正在生成代码
+         已完成代码的生成
+     1>concert.lib(iloalg.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloalg.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloallocator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloallocator.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloanyexpr.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloanyexpr.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloconstraint.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloconstraint.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloenv.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloenv.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloexpression.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloexpression.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloextractable.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloextractable.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilohash.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilohash.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloiterator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloiterator.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilomap.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilomap.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilorandom.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilorandom.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosatomi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosatomi.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosbasic.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosbasic.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosdisplayi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosdisplayi.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloserror.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloserror.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloset.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloset.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosmodel.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosmodel.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosolution.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosolution.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilossequencei.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilossequencei.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilossol.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilossol.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosstructi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosstructi.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilostimei.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilostimei.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilothread.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilothread.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilotypes.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilotypes.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollection.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollection.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollectioniterator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollectioniterator.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollectionoperator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollectionoperator.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilocollectionstruct.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilocollectionstruct.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilosimplecollection.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilosimplecollection.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilointervalsi.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilointervalsi.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(ilonumfunci.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(ilonumfunci.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloparami.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloparami.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(iloskiplist.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(iloskiplist.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(evalexpand.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(evalexpand.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(evalkernel.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(evalkernel.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(evaluator.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(evaluator.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+     1>concert.lib(strtod.obj) : warning LNK4099: 未找到 PDB“concert.pdb”(使用“concert.lib(strtod.obj)”或在“F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\concert.pdb”中寻找)；正在链接对象，如同没有调试信息一样
+         MOEAD-TS.vcxproj -> F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\MOEAD.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\Release\MOEAD.exe;#1" /manifest Release\MOEAD.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\MOEAD.unsuccessfulbuild".
+         Touching "Release\MOEAD.lastbuildstate".
+     1>Done Building Project "F:\git_real\MOEAD_cpp\ALL\MOEA-D算数交叉均匀变异\MOEAD\MOEAD-TS.vcxproj" (build target(s)).
+
+生成成功。
+
+Time Elapsed 00:00:08.98
